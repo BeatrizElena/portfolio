@@ -7,7 +7,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 .jumbotron {
-    min-height: 450px;
+    min-height: 550px;
     background-image: url(image.jpg);
     background-size: cover;
     /* background-position: center center; */
@@ -77,3 +77,28 @@ h1 {
 .project-images {
     width: 100%;
 }
+.skills {
+    text-align: right;
+    padding-right: 20px;
+    line-height: 40px; 
+    color: white;
+}
+.html {
+    width: 90%; 
+    background-color: #4CAF50;
+} /* Green */
+.js {
+    width: 70%; 
+    background-color: #2196F3;
+} /* Blue */
+.full-stack {
+    width: 50%; 
+    background-color: #f44336;
+} /* Red */
+.python {
+    width: 50%; 
+    background-color: #ecec0a;
+} /* Red */
+.php {
+    width: 40%; background-color: #808080;
+} /* Dark Grey */
