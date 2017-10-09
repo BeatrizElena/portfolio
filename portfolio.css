@@ -1,0 +1,79 @@
+
+* {
+    box-sizing: border-box;
+}
+body {
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.jumbotron {
+    min-height: 450px;
+    background-image: url(image.jpg);
+    background-size: cover;
+    /* background-position: center center; */
+}
+.fa {
+    padding: 20px;
+    font-size: 45px;
+    width: 60px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-linkedin {
+    background: #3B5998;
+    color: white;
+}
+.fa-github {
+    background: #2b406e;
+    color: white;
+}
+.main {
+    max-width: 1600px;
+    margin: auto;
+}
+h1 {
+    font-size: 50px;
+    word-break: break-all;
+}
+.row {
+    margin: 8px -16px;
+}
+/* padding bw each column */
+.row, .row > .column {
+    padding: 8 px;
+}
+/* create 4 equal columns, each floating next to each other */
+.column {
+    float: left;
+    width: 25%;
+}
+/* create floats after rows */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.content {
+    background-color: white;
+    padding: 10px;
+}
+/* responsive layout: makes a 2-column layout instead of 4-column */
+@media (max-width: 900px) {
+    .column {
+        width: 50%;
+    }
+}
+/* responsive layout: makes the 2-column stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+.project-images {
+    width: 100%;
+}
